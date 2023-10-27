@@ -3,6 +3,7 @@ import "./home.css";
 import { Button } from "../../components/Button/Button.jsx";
 import { Social } from "../../components/Social/social.jsx";
 import { Profile } from "../../components/Profile/Profile.jsx";
+import { About } from "../../components/About/About.jsx";
 import { useState } from "react";
 import { iconCheck } from "../../components/SVGs/SVGs.jsx";
 
@@ -41,15 +42,11 @@ export function Home() {
   return (
     <div id="container" className="flex">
       <Profile />
+      
 
       <div id="main-content" className="flex">
-        <div className="aboutMe">
-          <h2>Who's Cailo</h2>
-          <p>
-            Eae, me chamo Cailo e tenho 23 anos. Eu sou desenvolvedor web
-            front-end e designer!
-          </p>
-        </div>
+      <Social />
+        <About />
         <ul className="flex">
           <Button label="Portfólio" type="main-button" />
           <Button label="Contact me" type="main-button" />
@@ -59,7 +56,6 @@ export function Home() {
       <footer className="flex">
         <span>Developed by: cailoop</span>
       </footer>
-      <Social />
     </div>
   );
 }

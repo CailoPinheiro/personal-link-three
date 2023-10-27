@@ -1,4 +1,5 @@
 import React from "react";
+import "./icons.css"
 
 export function Icons({ hidden, href, target, src, alt }) {
   return (

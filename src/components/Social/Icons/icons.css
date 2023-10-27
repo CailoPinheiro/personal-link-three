@@ -1,12 +1,11 @@
 #social ul {
-
     flex-direction: row;
     gap: 15px;
 }
 
-#social img {
-    width: 24px;
-    height: 24px;
+#social ul img {
+    width: 26px;
+    height: 26px;
     opacity: 0.5;
 }
 
@@ -14,10 +13,11 @@
     opacity: 1;
 }
 
-@media (min-right: 700px) {
-    #social img:hover {
+@media (min-width: 700px) {
+
+    #social ul img {
         width: 20px;
         height: 20px;
-        opacity: 1;
+        opacity: 0.5;
     }
 }

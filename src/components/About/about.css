@@ -1,0 +1,28 @@
+.aboutMe {
+    max-width: 255px;
+    border-radius: 10px;
+    padding: 20px 14px;
+    text-align: center;
+    background: rgba(57, 88, 165, 0.045);
+    /* background-color:transparent; */
+}
+
+.aboutMe h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: var(--minor-color);
+}
+
+.aboutMe p {
+    color: #b8b8b8;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0px 20px;
+    transform: scale(0.9);
+}
+
+@media (min-width: 700px) {
+    .aboutMe {
+        background: rgba(4, 8, 18, 0.766);
+    }
+}
