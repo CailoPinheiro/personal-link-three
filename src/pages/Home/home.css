@@ -46,41 +46,13 @@ body {
     /* max-height: 747px; */
 }
 
-#profile {
-    text-align: center;
-}
-
-#profile img {
-    border-radius: 100%;
-    width: 150px;
-    outline: 5px solid var(--main-color);
-    box-shadow: 0 0 1em 0 rgba(93, 189, 147, 0.215);
-    transform: scale(0.9);
-    margin-top: 10px;
-}
-
-#profile p {
-    font-weight: bold;
-    font-size: 1.1em;
-    text-shadow: 0 2px 0.3em #2121213e;
-    letter-spacing: 1.5px;
-    line-height: 24px;
-    margin-top: 15px;
-}
-
-#profile .sub-text {
-    color: #ffffff4a;
-    font-size: 0.9em;
-    opacity: 0.8;
-}
-
 .aboutMe {
     max-width: 255px;
     border-radius: 10px;
     padding: 20px 14px;
     text-align: center;
-    background: rgba(4, 8, 18, 0.766);
-    background-color: rgba(255, 255, 255, 0.025);
+    background: rgba(57, 88, 165, 0.045);
+    /* background-color:transparent; */
 }
 
 .aboutMe h2 {
@@ -173,11 +145,6 @@ footer span {
         background-color: rgba(255, 255, 255, 0.023);
         max-height: 767px;
         padding: 10px 20px 30px 20px;
-    }
-
-    #profile img {
-        width: 200px;
-        transition: 0.5s ease-in-out;
     }
 
     .aboutMe {
