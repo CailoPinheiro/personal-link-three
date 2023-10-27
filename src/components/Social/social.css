@@ -1,0 +1,23 @@
+#social ul {
+
+    flex-direction: row;
+    gap: 15px;
+}
+
+#social img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
+#social img:hover {
+    opacity: 1;
+}
+
+@media (min-right: 700px) {
+    #social img:hover {
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+    }
+}

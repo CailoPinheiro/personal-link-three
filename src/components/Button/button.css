@@ -1,0 +1,103 @@
+.fade-in {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    transition: none;
+}
+
+/* button:focus {
+    outline: 1px solid var(--minor-color);
+} */
+
+button span {
+    font-weight: bold;
+}
+
+.main-button {
+    padding: 15px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    width: 250px;
+}
+
+.main-button:focus {
+    transition: 0.4s;
+    outline: 1px solid var(--minor-color);
+    box-shadow: 0 0 0.5em 0 var(--main-hover-color);
+}
+
+.main-button span {
+    color: rgb(34, 34, 34);
+}
+
+.secondary-button {
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 250px;
+    outline: 1px solid var(--main-color);
+}
+
+.secondary-button:focus {
+    transition: 0.4s;
+    box-shadow: 0 0 0.5em 0 var(--main-hover-color);
+    /* outline: 1px solid var(--minor-color); */
+
+}
+
+.secondary-button span {
+    margin: 0px 3px;
+    color: var(--main-color);
+}
+
+.secondary-button svg {
+    width: 13px;
+    height: 13px;
+}
+
+@media (min-width: 700px) {
+
+    button {
+        transition: 0.5s;
+    }
+
+    button:focus {
+
+        opacity: 1;
+    }
+
+    .main-button {
+        transition: 1s ease-in-out;
+    }
+
+    .main-button:hover {
+        background-color: var(--main-color);
+        transition: 0.2s;
+        box-shadow: 0 0 0.6em 0 var(--main-color);
+    }
+
+    .main-button:focus {
+        transition: 0.4s;
+        outline: 1px solid var(--minor-color);
+    }
+
+    .secondary-button:hover {
+        box-shadow: 0 0 0.6em 0 var(--main-color);
+        transition: 0.2s;
+        cursor: url('./assets/main-cursor.svg');
+    }
+
+    .secondary-button:focus {
+        transition: 0.1s;
+        box-shadow: 0 0 0.5em 0 var(--main-hover-color);;
+    }
+}
