@@ -33,7 +33,7 @@ export function Home() {
       setPixButton(buttonContent);
     }, 5000);
   }
-
+  
   function pixButtonFunction() {
     copiar();
     toggleCopyButton();
