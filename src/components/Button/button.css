@@ -6,20 +6,27 @@
     -ms-animation: fadeIn 1s;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 button {
     border: none;
 }
 
-button:hover {
-    transition: none;
-}
-
-/* button:focus {
-    outline: 1px solid var(--minor-color);
-} */
-
 button span {
     font-weight: bold;
+}
+
+li {
+    place-content: center;
+}
+
+#ancora a {
+    display: inline-block;
+    text-align: center;
+    color: rgb(34, 34, 34);
 }
 
 .main-button {
@@ -30,9 +37,10 @@ button span {
 }
 
 .main-button:focus {
-    transition: 0.4s;
-    outline: 1px solid var(--minor-color);
-    box-shadow: 0 0 0.5em 0 var(--main-hover-color);
+    outline: none;
+    background-color: var(--main-color);
+    transition: none;
+    box-shadow: 0 0 0.6em 0 var(--main-color);
 }
 
 .main-button span {
@@ -48,10 +56,9 @@ button span {
 }
 
 .secondary-button:focus {
-    transition: 0.4s;
+    transition: none;
     box-shadow: 0 0 0.5em 0 var(--main-hover-color);
     /* outline: 1px solid var(--minor-color); */
-
 }
 
 .secondary-button span {
@@ -66,12 +73,8 @@ button span {
 
 @media (min-width: 700px) {
 
-    button {
-        transition: 0.5s;
-    }
-
     button:focus {
-
+        outline: none;
         opacity: 1;
     }
 
@@ -87,7 +90,8 @@ button span {
 
     .main-button:focus {
         transition: 0.4s;
-        outline: 1px solid var(--minor-color);
+        box-shadow: 0 0 0.5em 0 var(--main-hover-color);
+        outline: 1px solid var(--main-color);
     }
 
     .secondary-button:hover {
@@ -97,7 +101,8 @@ button span {
     }
 
     .secondary-button:focus {
-        transition: 0.1s;
-        box-shadow: 0 0 0.5em 0 var(--main-hover-color);;
+        transition: 0.4s;
+        box-shadow: 0 0 0.5em 0 var(--main-hover-color);
+        outline: 1px solid var(--main-color);
     }
 }

@@ -1,7 +1,7 @@
 import { copiar } from "./js/util.js";
 import "./home.css";
 import { Button } from "../../components/Button/Button.jsx";
-import { Social } from "../../components/Social/social.jsx";
+import { Social } from "../../components/Social/Social.jsx";
 import { Profile } from "../../components/Profile/Profile.jsx";
 import { About } from "../../components/About/About.jsx";
 import { useState } from "react";
@@ -14,6 +14,7 @@ export function Home() {
       beforeContent={iconCheck()}
       label="Pix"
       type={["secondary-button"]}
+      isButton={true}
     />
   );
 
@@ -24,6 +25,7 @@ export function Home() {
         label="Copiado"
         fade="fade-in"
         type={["secondary-button"]}
+        isButton={true}
       />
     );
 
@@ -42,14 +44,19 @@ export function Home() {
   return (
     <div id="container" className="flex">
       <Profile />
-      
 
       <div id="main-content" className="flex">
-      <Social />
+        <Social />
         <About />
         <ul className="flex">
-          <Button label="Portfólio" type="main-button" />
-          <Button label="Contact me" type="main-button" />
+          <Button label="Portfólio" type="main-button" isButton={true} />
+          <Button
+            href="https://l1nk.dev/cailoop"
+            target="_blank"
+            label="Contact me"
+            type={["main-button", "flex"]}
+            isButton={false}
+          />
           {pixButton}
         </ul>
       </div>

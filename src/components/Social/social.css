@@ -3,9 +3,9 @@
     gap: 15px;
 }
 
-#social ul img {
-    width: 26px;
-    height: 26px;
+#social img {
+    width: 28px;
+    height: 28px;
     opacity: 0.5;
 }
 
@@ -14,10 +14,8 @@
 }
 
 @media (min-width: 700px) {
-
-    #social ul img {
+    #social img {
         width: 20px;
         height: 20px;
-        opacity: 0.5;
     }
 }

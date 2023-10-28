@@ -1,5 +1,6 @@
 import React from "react";
-import {Icons} from "./Icons/Icons";
+import { Icons } from "./Icons/Icons";
+import "./social.css";
 
 export function Social() {
   return (
