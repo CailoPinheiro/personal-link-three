@@ -6,7 +6,7 @@ export function Profile() {
     <div id="profile">
       <img
         id="profile-img"
-        src="./src/pages/Home/assets/profile-img.svg"
+        src="/profile-img.svg"
         alt="foto de perfil"
       />
       <p>Cailo Pinheiro</p>
