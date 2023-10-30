@@ -102,18 +102,18 @@ footer span {
 
     * {
         transition: 0.5s;
-        cursor: url('./assets/main-cursor.svg'), auto;
+        cursor: url('main-cursor.svg'), auto;
     }
 
     body {
-        background: url(./assets/bg-image.svg) repeat-y center;
+        background: url(bg-image.svg) repeat-y center;
         min-height: 100vh;
         transition: none;
     }
 
     button,
     a {
-        cursor: url('./assets/main-cursor.svg'), auto;
+        cursor: url('main-cursor.svg'), auto;
     }
 
     #container {

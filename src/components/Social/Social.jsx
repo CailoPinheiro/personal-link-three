@@ -9,31 +9,31 @@ export function Social() {
         <Icons
           href="https://github.com/CailoPinheiro"
           target="_blank"
-          src="./src/pages/Home/assets/icon-github.svg"
+          src="/icon-github.svg"
           alt="github"
         />
         <Icons
           href="https://instagram.com/cailoop"
           target="_blank"
-          src="./src/pages/Home/assets/icon-instagram.svg"
+          src="/icon-instagram.svg"
           alt="instagram"
         />
         <Icons
           href="https://linkedin.com/in/Cailo-Pinheiro"
           target="_blank"
-          src="./src/pages/Home/assets/icon-linkedin.svg"
+          src="/icon-linkedin.svg"
           alt="linkedin"
         />
         <Icons
           href="https://www.behance.net/cailopinheiro"
           target="_blank"
-          src="./src/pages/Home/assets/icon-behance.svg"
+          src="/icon-behance.svg"
           alt="behance"
         />
         <Icons
           href="https://twitter.com/cailoop"
           target="_blank"
-          src="./src/pages/Home/assets/icon-twitter.svg"
+          src="/icon-twitter.svg"
           alt="twitter"
         />
       </ul>
