@@ -107,7 +107,7 @@ footer span {
     }
 
     body {
-        background: url(/bg-image.svg) repeat-y center;
+        background: url(/bg-image.svg) repeat-y center/cover;
         min-height: 100vh;
         transition: none;
     }
