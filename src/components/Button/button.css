@@ -78,9 +78,9 @@ li {
         opacity: 1;
     }
 
-    .main-button {
+    /* .main-button {
         transition: 1s ease-in-out;
-    }
+    } */
 
     .main-button:hover {
         background-color: var(--main-color);
