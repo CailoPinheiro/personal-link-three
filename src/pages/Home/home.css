@@ -102,7 +102,7 @@ footer span {
 
     * {
         transition: 0.5s;
-        cursor: url('main-cursor.svg'), auto;
+        cursor: url('/main-cursor.svg'), auto;
     }
 
     body {
@@ -113,7 +113,7 @@ footer span {
 
     button,
     a {
-        cursor: url('main-cursor.svg'), auto;
+        cursor: url('/main-cursor.svg'), auto;
     }
 
     #container {
