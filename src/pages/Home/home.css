@@ -27,7 +27,7 @@ a {
 }
 
 body {
-    background: url(/bg-image.svg) no-repeat center/cover;
+    background: url(/bg-image.svg) no-repeat center;
     min-height: 100vh;
     height: 100%;
     /* display: flex; */
@@ -107,7 +107,7 @@ footer span {
     }
 
     body {
-        background: url(/bg-image.svg) repeat-y center/cover;
+        background: url(/bg-image.svg) repeat-y center;
         min-height: 100vh;
         transition: none;
     }
