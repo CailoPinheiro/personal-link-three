@@ -33,7 +33,7 @@ export function Home() {
       setPixButton(buttonContent);
     }, 5000);
   }
-  
+
   function pixButtonFunction() {
     copiar();
     toggleCopyButton();
@@ -49,7 +49,13 @@ export function Home() {
         <Social />
         <About />
         <ul className="flex">
-          <Button href="https://portfolio-cailoop.vercel.app/" label="Portfólio" type="main-button" isButton={true} />
+          <Button
+            href="https://portfolio-cailoop.vercel.app/"
+            target="_blank"
+            label="Portfólio"
+            type="main-button"
+            isButton={false}
+          />
           <Button
             href="https://l1nk.dev/cailoop"
             target="_blank"
