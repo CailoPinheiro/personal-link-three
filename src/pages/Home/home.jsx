@@ -49,7 +49,7 @@ export function Home() {
         <Social />
         <About />
         <ul className="flex">
-          <Button label="Portfólio" type="main-button" isButton={true} />
+          <Button href="https://portfolio-cailoop.vercel.app/" label="Portfólio" type="main-button" isButton={true} />
           <Button
             href="https://l1nk.dev/cailoop"
             target="_blank"
